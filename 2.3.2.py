@@ -1,0 +1,7 @@
+print("Введите поочередно 5 этапов  развития человека")
+a1= input()
+a2= input()
+a3= input()
+a4= input()
+a5= input()
+print(a1,a2,a3,a4,a5, sep=" => ")
