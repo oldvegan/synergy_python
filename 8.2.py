@@ -1,0 +1,6 @@
+print(f"Введите число:")
+n = int(input())
+print(f"Введите {n} чисел через пробел:")
+tmp = list(map(int, input().split()))
+tmp.reverse()
+print(f"Измененный массив: {tmp}")
