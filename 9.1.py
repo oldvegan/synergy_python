@@ -1,0 +1,5 @@
+print(f"Введите количество чисел:")
+n = int(input())
+print(f"Введите через пробел {n} чисел:")
+spisok = set(map(int, input().split()))
+print(f"Вы ввели {len(spisok)} уникальных чисел из {n}")
