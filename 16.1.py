@@ -14,12 +14,3 @@ class Kassa(object):
            self.money -= x
        else:
            print(f"В кассе денег меньше, чем вы запросили")
-           
-
-kassa = Kassa(1000)
-kassa.top_up(1500)
-print(kassa.money)
-kassa.count_1000()
-kassa.take_away(2000)
-print(kassa.money)
-kassa.take_away(501)
